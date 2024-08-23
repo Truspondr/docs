@@ -1,3 +1,7 @@
+
 {
-  "extends": "./.nuxt/tsconfig.json"
+  "_hash": "nsGobbJan1",
+  "compilerOptions": {
+    "rootDir": "/workspace/",
+  }
 }
