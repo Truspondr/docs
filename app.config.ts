@@ -3,13 +3,13 @@ export default defineAppConfig({
   docus: {
     title: 'Truspondr',
     description: 'The better way to roleplay.',
-    image: 'https://avatars.githubusercontent.com/u/178166344?s=200&v=4',
+    image: '/truspondr-cover-white.png',
     socials: {
       twitter: 'truspondr',
       github: 'truspondr',
     },
     github: {
-      dir: '.starters/default/content',
+      dir: '',
       branch: 'main',
       repo: 'docs',
       owner: 'truspondr',
@@ -27,8 +27,16 @@ export default defineAppConfig({
     header: {
       logo: true,
       showLinkIcon: true,
+      // title: 'Truspondr',
       exclude: [],
       fluid: true
+    },
+    footer: {
+      credits: {
+        icon: 'IconDocus',
+        text: 'Powered by Docus',
+        href: 'https://docus.dev'
+      }
     }
   }
 })
