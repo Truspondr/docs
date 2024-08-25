@@ -1,3 +1,3 @@
 <template>
-  <img width="120" src="/default-monochrome-white.png"/>
+  <img width="120" src="/truspondr-logo-white.png"/>
 </template>
