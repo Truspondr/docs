@@ -7,6 +7,11 @@ export default defineAppConfig({
     socials: {
       twitter: 'truspondr',
       github: 'truspondr',
+      docs: {
+        label: 'Docs',
+        icon: 'material-symbols:menu-book',
+        link: '/server/get-started/setting-up'
+      }
     },
     github: {
       dir: '',
