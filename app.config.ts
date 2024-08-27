@@ -10,7 +10,7 @@ export default defineAppConfig({
       docs: {
         label: 'Docs',
         icon: 'material-symbols:menu-book',
-        link: '/server/get-started/setting-up'
+        href: '/server/get-started/setting-up'
       }
     },
     github: {

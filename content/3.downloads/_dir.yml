@@ -1,2 +1,3 @@
-navigation: false
+navigation: true
 navigation.redirect: /downloads/download
+icon: material-symbols:download
